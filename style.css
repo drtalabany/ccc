@@ -1,0 +1,29 @@
+.gallery{
+    
+    width: 150px;
+    height: 200px;
+    box-shadow: 1px 1px 15px 0px black;
+    border-radius: 15px;
+    transition: 0.4s;
+    display: inline-block;
+    margin: 10px;
+}
+.gallery .description{
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+    font-size: 17px;
+    
+}
+.gallery:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+    box-shadow: 1px 1px 3px 0px black;
+}
+.gallery img{
+    width: 146px;
+    height: 153px;
+    border-radius: 15px;
+    padding: 3px;
+    object-fit: cover;
+}
+
